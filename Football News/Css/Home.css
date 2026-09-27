@@ -1,0 +1,359 @@
+nav 
+{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_nav ul
+{
+    list-style: none;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+} 
+.right_nav ul li
+{
+     display: inline-block;
+     text-transform: uppercase;
+     margin: 10px;
+     font-size: 15px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Fisrt_List 
+{
+    font-size: 25px;
+    margin-left: 52px;
+}
+.list_icon 
+{
+    width: 35px;
+    height: 20px;
+}
+.lift_nav
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 60px;
+}
+.icon_man
+{
+    width: 35px;
+    height: 30px;
+}
+.lift_nav p 
+{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.big_img
+{
+    background-image: url(../Images/messi.jpg);
+    height: 80vh;
+    width: 93%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.0) saturate(1.1);
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.big_img p
+{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 40%;
+    margin: 0;
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first_img > .images1 , .images2
+{
+    margin-top: 20px;
+    margin-left: 48px;
+    margin-bottom: -24px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.first_img > .images2
+{
+    margin-top: 20px;
+    margin-left: 48px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 40.2%;
+    height: 57vh;
+}
+.cards_section 
+{
+    display: flex;
+    margin-top: 20px;
+}
+.article_card 
+{
+    width: 44%;
+    margin-left: 49px;
+}
+.article_card2
+{
+    width: 44%;
+    margin-left: 49px;
+}
+.images1 
+{
+    width: 100%;
+    height: 50vh;
+    display: block;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.images2
+{
+   width: 680px;
+    height: 50vh;
+    display: block;
+    object-fit: cover;
+    margin-left: 11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.par_img1
+{
+    background-color: #3c3c3c;
+    height: 50vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #e8e8e8;
+    padding-top: 1px;
+}
+.par_img2
+{
+    background-color: #3c3c3c;
+    height: 50vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #e8e8e8;
+    padding-top: 1px;
+    margin-right: -29px;
+    margin-left: 11px;
+}
+.par_img1 h6,
+.par_img2 h6 
+{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 42px;
+    margin-top: 32px;
+}
+.par_img1 h4,
+.par_img2 h4 
+{
+    font-size: 35px;
+    margin-left: 42px;
+    padding-top: 4px;
+}
+.par_img1 p,
+.par_img2 p 
+{
+    font-size: 21px;
+    text-transform: capitalize;
+    margin-left: 42px;
+    padding-top: 10px;
+    width: 80%;
+}
+aside
+{
+    width: 25%;
+    background-color: #3c3c3c;
+    height: 118.5vh;
+    margin-top: 20px;
+    margin-left: 45px;
+    border-radius: 20px;
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.content 
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+aside::-webkit-scrollbar {
+    display: none;
+}
+.aside_header {
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.aside_header > h1
+{
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.aside_header > h3
+{
+    margin-left: 19px;
+}
+.aside_header > p
+{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.breaking_link
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0 0 50px;
+    padding-bottom: 35PX;
+    text-decoration: none;
+}
+.breaking_link span
+{
+    color: #e85b3f;
+    margin-left: 5px;
+}
+.aside_header:last-of-type 
+{
+    border-bottom: none;
+}
+.last_news 
+{
+    border-bottom: none;
+}
+.section_img 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 67%;
+}
+.img1 
+{
+    width: 100%;
+    height: 30vh;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: block;
+    object-fit: cover;
+}
+.first_det 
+{
+    background-color: #3c3c3c;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.first_det > p
+{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 18px;
+    padding-top: 20px;
+    margin-top: 0;
+}
+.first_det h3 
+{
+    font-size: 17px;
+    margin-left: 18px;
+    margin-right: 15px;
+    text-transform: capitalize;
+}
+.head_queen
+{
+    text-transform: uppercase;
+    margin: 50px 0 30px 90px;
+}
+.queen_containor
+{
+   display: flex; 
+   margin-left: 70px;
+   margin-bottom: 30px;
+}
+.queen
+{
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.details_queen
+{
+    background-color: #3c3c3c;
+    width: 44.5%;
+    height: 54.6vh;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.details_queen > p
+{
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.details_queen > h1
+{
+    color: white;
+    margin-left: 15px;
+    margin-top: 50px;
+    line-height: 40px;
+}
+.details_queen > #para
+{
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 27px;
+    margin-top: 60px;
+}
+.bottom_queen 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.bottom_queen > .date
+{
+    margin-left: 15px;
+    color: white;
+}
+.breaking_link2
+{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.breaking_link2 span
+{
+    color: #e85b3f;
+    margin-left: 5px;
+}
